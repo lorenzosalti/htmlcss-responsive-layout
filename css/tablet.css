@@ -20,16 +20,20 @@
     main .titolo span {
         display: inline;
     }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
     /* ricetta */
     .ricetta .brief ul {
         margin: -20px;
         gap: 0;
     }
-    
+
     .ricetta .brief ul li {
         width: calc(100% / 3 - 40px);
         margin: 20px;
     }
-    
+
 }

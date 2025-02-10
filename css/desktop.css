@@ -7,11 +7,25 @@
         margin: 0 auto;
         max-width: 1350px;
     }
-    
+
+    /* titolo */
     main .titolo h2 {
         font-size: 3rem;
     }
 
+    /* ricetta */
+    .intro .ricetta {
+        display: flex;
+    }
+
+    .intro .ricetta .youtube {
+        flex-grow: 1;
+    }
+
+    .intro .ricetta .brief {
+        max-width: 30%;
+    }
+    
     /* FOOTER */
     footer {
         display: flex;
