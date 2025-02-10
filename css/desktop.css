@@ -10,7 +10,7 @@
 
     /* INTRO */
     /* titolo */
-    main .titolo h2 {
+    .intro .titolo h2 {
         font-size: 3rem;
     }
 
@@ -40,7 +40,7 @@
         font-weight: 600;
     }
 
-    /* FOOTER */
+    /*** FOOTER ***/
     footer {
         display: flex;
         justify-content: space-between;

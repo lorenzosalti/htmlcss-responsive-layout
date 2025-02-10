@@ -45,20 +45,20 @@ main {
 }
 
 /* titolo */
-.titolo {
+.intro .titolo {
     margin-bottom: 2rem;
 }
 
-h2 {
+.intro h2 {
     color: #4e3969;
     font-size: 2rem;
 }
 
-.titolo span {
+.intro .titolo span {
     display: none;
 }
 
-div.cathegory {
+.intro div.cathegory {
     color: #999999;
     margin-bottom: 0.8rem;
 }
@@ -73,7 +73,7 @@ div.cathegory {
     padding: 40px;
 }
 
-.ricetta .brief h3 {
+.ricetta .brief h4 {
     margin-bottom: 40px;
     font-size: 1.5rem;
 }
@@ -137,7 +137,32 @@ div.cathegory {
     width: 100%;
 }
 
-/* FOOTER */
+/* DESCRIPTION */
+/* titolo */
+.description .titolo {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.description hr {
+    width: 100px;
+    border: 1px solid #f7972e;
+    margin-bottom: 1.5rem;
+}
+
+/* paragrafo */
+.description p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+.description p img {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/*** FOOTER ***/
 footer {
     background-color: #7c69a4;
     text-align: center;
