@@ -1,11 +1,11 @@
-/* RESET */
+/*** RESET ***/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* GLOBAL */
+/*** GLOBAL ***/
 body {
     background-color: #f6f5f3;
     font-family: Montserrat,'Helvetica Neue',sans-serif;
@@ -20,7 +20,7 @@ img {
     display: block;
 }
 
-/* HEADER */
+/*** HEADER ***/
 header {
     background-color: #ffffff;
     padding: 25px;
@@ -34,9 +34,14 @@ h1 {
     line-height: 2.5rem;
 }
 
-/* MAIN */
+/*** MAIN ***/
 main {
     padding: 25px;
+}
+
+/* INTRO */
+.intro {
+    margin-bottom: 35px;
 }
 
 /* titolo */
@@ -81,6 +86,40 @@ div.cathegory {
 
 .ricetta .brief ul li {
     width: 100%;
+}
+
+/* ADS */
+/* social */
+.ads .social span {
+    display: none;
+}
+
+.ads .social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ads .social div a {
+    padding: 0.7rem 1.2rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+}
+
+.ads .social i.fa-facebook {
+    color: #1a77f3;
+}
+
+.ads .social i.fa-twitter {
+    color: #009eff;
+}
+
+.ads .social i.fa-instagram {
+    color: #de3d78;
+}
+
+.ads .social i.fa-pinterest,
+.ads .social i.fa-youtube {
+    color: #e62222;
 }
 
 /* FOOTER */
