@@ -20,6 +20,12 @@ img {
     display: block;
 }
 
+.intro .ricetta,
+.ads .social a,
+.description p img {
+    box-shadow: 5px 5px 10px #eeeeee, -5px 5px 10px #eeeeee;
+}
+
 /*** HEADER ***/
 header {
     background-color: #ffffff;
@@ -32,6 +38,7 @@ h1 {
     color: #ff9614;
     text-align: center;
     line-height: 2.5rem;
+    text-shadow: 2px 1px 2px #555;
 }
 
 /*** MAIN ***/
