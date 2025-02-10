@@ -157,8 +157,9 @@ main {
     font-size: 1.2rem;
     line-height: 2.5rem;
 }
+
 .description p img {
-    max-width: 60%;
+    max-width: 375px;
     margin: 0 auto;
 }
 

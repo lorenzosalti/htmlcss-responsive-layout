@@ -36,6 +36,12 @@
     .ads .banner {
         display: block;
     }
+
+    /* DESCRIPTION */
+    .description p img {
+        float: left;
+        margin-right: 10px;
+    }
     
 }
 
