@@ -99,10 +99,11 @@ div.cathegory {
     justify-content: space-between;
 }
 
-.ads .social div a {
+.ads .social a {
     padding: 0.7rem 1.2rem;
     background-color: #ffffff;
     border-radius: 2rem;
+    text-align: center;
 }
 
 .ads .social i.fa-facebook {

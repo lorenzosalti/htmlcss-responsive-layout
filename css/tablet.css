@@ -1,17 +1,18 @@
-/* TABLET VIWEPORT */
+/*** TABLET VIWEPORT ***/
 
 @media screen and (min-width: 768px) {
 
-    /* HEADER */
+    /*** HEADER ***/
     header h1 {
         text-align: left;
     }
 
-    /* MAIN */
+    /*** MAIN ***/
     main {
         padding: 63px;
     }
 
+    /* INTRO */
     /* titolo */
     main .titolo h2 {
         font-size: 2.5rem;
@@ -19,6 +20,16 @@
 
     main .titolo span {
         display: inline;
+    }
+
+    /* ADS */
+    /* social */
+    .ads .social {
+        gap: 1rem;
+    }
+
+    .ads .social a {
+        flex-grow: 1;
     }
     
 }
