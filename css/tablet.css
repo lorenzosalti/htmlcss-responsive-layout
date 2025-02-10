@@ -1,0 +1,9 @@
+/* TABLET VIWEPORT */
+
+@media screen and (min-width: 768px) {
+
+    header h1 {
+        text-align: left;
+    }
+    
+}
