@@ -3,6 +3,11 @@
 @media screen and (min-width: 992px) {
 
     /* MAIN */
+    .container {
+        margin: 0 auto;
+        max-width: 1350px;
+    }
+    
     main .titolo h2 {
         font-size: 3rem;
     }
