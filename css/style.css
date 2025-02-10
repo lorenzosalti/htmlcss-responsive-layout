@@ -76,7 +76,7 @@ div.cathegory {
 .ricetta .brief ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 0.8rem;
 }
 
 .ricetta .brief ul li {
