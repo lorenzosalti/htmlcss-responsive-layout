@@ -2,6 +2,12 @@
 
 @media screen and (min-width: 992px) {
 
+    /* MAIN */
+    main .titolo h2 {
+        font-size: 3rem;
+    }
+
+    /* FOOTER */
     footer {
         display: flex;
         justify-content: space-between;
