@@ -30,6 +30,29 @@ h1 {
     line-height: 2.5rem;
 }
 
+/* MAIN */
+main {
+    padding: 25px;
+}
+
+.titolo {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #4e3969;
+    font-size: 2rem;
+}
+
+.titolo span {
+    display: none;
+}
+
+div.cathegory {
+    color: #999999;
+    margin-bottom: 0.8rem;
+}
+
 /* FOOTER */
 footer {
     background-color: #7c69a4;
