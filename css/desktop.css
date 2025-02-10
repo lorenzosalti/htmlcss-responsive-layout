@@ -1,13 +1,14 @@
-/* DESKTOP VIWEPORT */
+/*** DESKTOP VIWEPORT ***/
 
 @media screen and (min-width: 992px) {
 
-    /* MAIN */
+    /*** MAIN ***/
     .container {
         margin: 0 auto;
         max-width: 1350px;
     }
 
+    /* INTRO */
     /* titolo */
     main .titolo h2 {
         font-size: 3rem;
@@ -25,7 +26,20 @@
     .intro .ricetta .brief {
         max-width: 30%;
     }
-    
+
+    /* ADS */
+    /* social */
+    .ads .social a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .ads .social span {
+        display: inline;
+        font-weight: 600;
+    }
+
     /* FOOTER */
     footer {
         display: flex;
