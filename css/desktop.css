@@ -1,0 +1,15 @@
+/* DESKTOP VIWEPORT */
+
+@media screen and (min-width: 992px) {
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .info {
+        text-align: left;
+    }
+    
+}
