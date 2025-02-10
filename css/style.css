@@ -16,6 +16,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
 /* HEADER */
 header {
     background-color: #ffffff;
@@ -35,6 +39,7 @@ main {
     padding: 25px;
 }
 
+/* titolo */
 .titolo {
     margin-bottom: 2rem;
 }
@@ -51,6 +56,31 @@ h2 {
 div.cathegory {
     color: #999999;
     margin-bottom: 0.8rem;
+}
+
+/* ricetta */
+.ricetta .youtube a img {
+    width: 100%;
+}
+
+.ricetta .brief {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.ricetta .brief h3 {
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+.ricetta .brief ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.ricetta .brief ul li {
+    width: 100%;
 }
 
 /* FOOTER */
