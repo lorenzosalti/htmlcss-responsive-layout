@@ -89,6 +89,10 @@ div.cathegory {
 }
 
 /* ADS */
+.ads {
+    margin-bottom: 35px;
+}
+
 /* social */
 .ads .social span {
     display: none;
@@ -97,6 +101,7 @@ div.cathegory {
 .ads .social {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .ads .social a {
@@ -121,6 +126,15 @@ div.cathegory {
 .ads .social i.fa-pinterest,
 .ads .social i.fa-youtube {
     color: #e62222;
+}
+
+/* banner */
+.ads .banner {
+    display: none;
+}
+
+.ads .banner img {
+    width: 100%;
 }
 
 /* FOOTER */
